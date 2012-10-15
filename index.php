@@ -1,3 +1,4 @@
+<h1>Canberra Current Conditions</h1>
 <?php
 
 header('Content-Type: text/html');
@@ -31,10 +32,13 @@ while(list( , $node) = each($result)) {
 //echo "<br/>Max Temp: $result";
 
 //foreach ($xml->forecast->area[2]->children() as $element) {
-	//echo $element->asXML();
+ 	//echo $element->asXML();
 //}
 
 
+echo "<br/><a href='$url'>$url</a></br>"; 
 ?>
 
-<a href="xmlproxy.php">raw xml</a>
+<p>
+	<a href="xmlproxy.php">raw xml</a>
+</p>

@@ -19,9 +19,9 @@ http://www.bom.gov.au/NexGenFWS/icontable.shtml
 
 ~~~
 
-1 = Sunny = http://www.bom.gov.au/images/symbols/large/sunny.png
-2 = Mostly Sunny
-3 = Mostly Sunny/ Partly cloudy = http://www.bom.gov.au/images/symbols/large/partly-cloudy.png
+1 = Sunny = (http://www.bom.gov.au/images/symbols/large/sunny.png)
+2 = Clear = (http://wdev.bom.gov.au/weather-services/images/symbols/large/clear.png)
+3 = Mostly Sunny/ Partly cloudy = (http://www.bom.gov.au/images/symbols/large/partly-cloudy.png)
 4 =
 5 =
 6 =

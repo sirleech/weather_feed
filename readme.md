@@ -2,6 +2,10 @@
 http://www.bom.gov.au/act/forecasts/canberra.shtml --> "Product derived from IDN10035"
 ftp://ftp.bom.gov.au/anon/gen/fwo/IDN10035.xml
 
+## Capital Cities
+Canberra = IDN10035
+Melbourne Metro = IDV10450
+
 ## Public Machine Readable Data
 - ftp://ftp.bom.gov.au/anon/gen/fwo/
 - http://water.bom.gov.au/waterstorage/resources/mobiledata/urn:bom.gov.au:awris:common:codelist:region.country:australia

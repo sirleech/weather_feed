@@ -11,34 +11,51 @@ $url = 'ftp://ftp.bom.gov.au/anon/gen/fwo/IDN10035.xml';
 $xmlStr = file_get_contents($url);
 $xml = new SimpleXMLElement($xmlStr);
 
-//$result = $xml->amoc[0]->identifier;
-//echo $result;
 
-$result = $xml->forecast->area[1]->children()->children();
-echo $result;
-
-$result = $xml->xpath('/product/amoc');
-//echo $result->size;
-//var_dump($result);
-
+$result = $xml->xpath("//area[2]/forecast-period[1]/text[1]");
 while(list( , $node) = each($result)) {
-    echo $node,"\n";
+    echo $node;
 }
 
-//$result = $xml->forecast->area[2]->children()->children();
-//echo "<br/>Forecast Code: $result";
+?>
+<br/>
+<?php
 
-//$result = $xml->forecast->area[2]->children()->asXML();
-//echo "<br/>Max Temp: $result";
+$result = $xml->xpath("//area[3]/forecast-period[1]/text[1]");
+while(list( , $node) = each($result)) {
+    echo $node;
+}
 
-//foreach ($xml->forecast->area[2]->children() as $element) {
- 	//echo $element->asXML();
-//}
+?>
+<br/>Max
+<?php
 
+$result = $xml->xpath("//area[3]/forecast-period[1]/element[2]");
+while(list( , $node) = each($result)) {
+    echo $node;
+}
 
-echo "<br/><a href='$url'>$url</a></br>"; 
+?>
+c
+<br/>Chance of Rain
+<?php
+
+$result = $xml->xpath("//area[3]/forecast-period[1]/text[2]");
+while(list( , $node) = each($result)) {
+    echo $node;
+}
+
+?>
+<br/>Icon Code
+<?php
+
+$result = $xml->xpath("//area[3]/forecast-period[1]/element[1]");
+while(list( , $node) = each($result)) {
+    echo $node;
+}
+
 ?>
 
-<p>
-	<a href="xmlproxy.php">raw xml</a>
-</p>
+
+
+

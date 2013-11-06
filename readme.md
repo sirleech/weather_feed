@@ -11,7 +11,21 @@ ftp://ftp.bom.gov.au/anon/gen/fwo/IDN10035.xml
 http://www.bom.gov.au/NexGenFWS/icontable.shtml
 
 ~~~
-Storm        = 16 = http://www.bom.gov.au/images/symbols/large/storm.png
-Rain         = 12 = http://www.bom.gov.au/images/symbols/large/rain.png
-Mostly Sunny =  3 = http://www.bom.gov.au/images/symbols/large/partly-cloudy.png
+
+1 = Sunny
+2 = Mostly Sunny
+3 = Mostly Sunny
+4 =
+5 =
+6 =
+7 =
+8 =
+9 =
+10 =
+11 = Possible Shower/Shower or two
+12 = Rain/Rain at times
+13 = 
+16 = Storm
+
+
 ~~~

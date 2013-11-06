@@ -15,9 +15,9 @@ ftp://ftp.bom.gov.au/anon/gen/fwo/IDN10035.xml
 
 ## forecast_icon_code
 
-http://www.bom.gov.au/NexGenFWS/icontable.shtml
+http://www.bom.gov.au/NexGenFWS/icontable.shtml (broken)
 
-~~~
+
 
 1 = Sunny = (http://www.bom.gov.au/images/symbols/large/sunny.png)
 2 = Clear = (http://wdev.bom.gov.au/weather-services/images/symbols/large/clear.png)
@@ -36,4 +36,4 @@ http://www.bom.gov.au/NexGenFWS/icontable.shtml
 17 = Light showers = http://www.bom.gov.au/images/symbols/large/light-showers.png
 
 
-~~~
+

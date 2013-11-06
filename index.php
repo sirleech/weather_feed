@@ -17,7 +17,22 @@ $url = $baseurl . $product_id . ".xml";
 $xmlStr = file_get_contents($url);
 $xml = new SimpleXMLElement($xmlStr);
 ?>
-<h1>
+
+<!-- NAVIGATION -->
+
+<ul>
+	<li><a href="?product_id=IDN10035">Canberra</a></li>
+	<li><a href="?product_id=IDV10450">Melbourne</a></li>
+	<li><a href="?product_id=IDN10064">Sydney</a></li>
+	<li><a href="?product_id=IDQ10095">Brisbane</a></li>
+	<li><a href="?product_id=IDW12300">Perth</a></li>
+	<li><a href="?product_id=IDS10034">Adelaide</a></li>
+	<li><a href="?product_id=IDT13600">Hobart</a></li>
+</ul>
+
+<!-- END NAVIGATION -->
+
+<h1>Location:
 <?php
 
 $result = $xml->xpath("//area[2]/@description");
